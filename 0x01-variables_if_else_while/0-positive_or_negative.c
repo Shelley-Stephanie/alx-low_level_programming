@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main:-code enrty point
- *return 0 is the exit point
- */
+ *main-program entry point.
+ *return:0-no error,non zero value if error.
+ **/
 int main(void)
 {
 	int n;
@@ -22,5 +22,4 @@ int main(void)
 	else if (n == 0)
 	printf("%d is zero\n", n);
 	return (0);
-
-}	
+}
