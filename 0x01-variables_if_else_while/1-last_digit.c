@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main-Entry point
- * Return:Exit point 
+ *main-Entry point
+ *Return:Exit point
  **/
 int main(void)
 {
 	int n;
 	int ldigit;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	ldigit = n % 10;
