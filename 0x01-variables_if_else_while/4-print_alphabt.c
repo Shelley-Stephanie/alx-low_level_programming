@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main:Entry
- *Return:Exit
+ *main-Entry
+ *Return:0 if no eror ,non zero incase of error
  **/
 int main(void)
 {
