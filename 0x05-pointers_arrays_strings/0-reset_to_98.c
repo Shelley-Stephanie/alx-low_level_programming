@@ -6,7 +6,7 @@
  * Return:O if there are no errors and non zero if there are error
  **/
 
-void reset_to_98(int *n);
+void reset_to_0098(int *n)
 {
-	*n = 98};
+	*n = 98;
 }
